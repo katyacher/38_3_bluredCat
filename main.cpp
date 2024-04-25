@@ -43,7 +43,6 @@ int main(int argc, char *argv[])
     QWidget imageWindow;
     QVBoxLayout vbox(&imageWindow);
 
-
     auto imageLabel = new QLabel(&imageWindow);
     imageLabel->setMinimumSize(400, 400);
     imageLabel->setAlignment(Qt::AlignCenter);
@@ -57,7 +56,6 @@ int main(int argc, char *argv[])
 
     auto *openFileButton = new QPushButton("Open", &imageWindow);
     vbox.addWidget(openFileButton);
-
 
 
     QString filePath;
